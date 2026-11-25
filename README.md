@@ -1,8 +1,6 @@
 #  EP.03.01 — Dashboard en Streamlit (conversión de practica12.py)
 # ELIZABETH RESENDIZ RAMOS IDIA 223
-
-Conversión a **Streamlit** de la práctica con la **GitHub REST API**.
-Se conserva la lógica original:
+# Conversión a **Streamlit** de la práctica con la **GitHub REST API**.
 
 - **Fase 3:** el token vive fuera del código (`Token.txt` / `token.txt`),
   la respuesta se lee de `respuesta.json` para no gastar peticiones,
@@ -26,7 +24,7 @@ Se conserva la lógica original:
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
-streamlit run app.py
+streamlit run evidencia.py
 ```
 
 ## Token
@@ -40,7 +38,7 @@ GITHUB_TOKEN = "tu_token_aqui"
 
 ## Despliegue
 
-1. Sube a un repositorio **público** de GitHub: `app.py`, `requirements.txt`,
+1. Sube a un repositorio **público** de GitHub: `evidencia.py`, `requirements.txt`,
    `README.md`, `.gitignore` y `respuesta.json` (sin `Token.txt`).
 2. En https://share.streamlit.io → **Create evidencia** → repo, rama `main`, `evidencia.py`.
 3. **Deploy**. El link `https://....streamlit.app` es la evidencia,
