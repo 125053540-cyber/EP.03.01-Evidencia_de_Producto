@@ -1,4 +1,5 @@
 #  EP.03.01 — Dashboard en Streamlit (conversión de practica12.py)
+# ELIZABETH RESENDIZ RAMOS IDIA 223
 
 Conversión a **Streamlit** de la práctica con la **GitHub REST API**.
 Se conserva la lógica original:
@@ -30,20 +31,17 @@ streamlit run app.py
 
 ## Token
 
-- **Local:** deja tu `Token.txt` junto a `app.py`. Está en `.gitignore`:
-  **nunca lo subas a GitHub**.
 - **Streamlit Cloud:** Settings → Secrets:
 
 ```toml
 GITHUB_TOKEN = "tu_token_aqui"
 ```
 
-Solo se usa si no existe `respuesta.json` y hay que consultar la API en vivo.
 
 ## Despliegue
 
 1. Sube a un repositorio **público** de GitHub: `app.py`, `requirements.txt`,
    `README.md`, `.gitignore` y `respuesta.json` (sin `Token.txt`).
-2. En https://share.streamlit.io → **Create app** → repo, rama `main`, `app.py`.
+2. En https://share.streamlit.io → **Create app** → repo, rama `main`, `evidencia.py`.
 3. **Deploy**. El link `https://....streamlit.app` es la evidencia,
    junto con el URL del repositorio.
