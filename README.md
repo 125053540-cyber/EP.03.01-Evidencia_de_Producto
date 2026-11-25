@@ -1,4 +1,4 @@
-# 📊 EP.03.01 — Dashboard en Streamlit (conversión de practica12.py)
+#  EP.03.01 — Dashboard en Streamlit (conversión de practica12.py)
 
 Conversión a **Streamlit** de la práctica con la **GitHub REST API**.
 Se conserva la lógica original:
