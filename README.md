@@ -42,6 +42,6 @@ GITHUB_TOKEN = "tu_token_aqui"
 
 1. Sube a un repositorio **público** de GitHub: `app.py`, `requirements.txt`,
    `README.md`, `.gitignore` y `respuesta.json` (sin `Token.txt`).
-2. En https://share.streamlit.io → **Create app** → repo, rama `main`, `evidencia.py`.
+2. En https://share.streamlit.io → **Create evidencia** → repo, rama `main`, `evidencia.py`.
 3. **Deploy**. El link `https://....streamlit.app` es la evidencia,
    junto con el URL del repositorio.
